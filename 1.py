@@ -1,9 +1,8 @@
-
-print("mce\n"*3,end="")
-name=input("What is your name ").strip().title()
+print("mce\n" * 3, end="")
+name = input("What is your name ").strip().title()
 
 print(f"how are you, {name}")
-name,y=name.split(" ")
+name, y = name.split(" ")
 print(name)
 print(y)
 match name:
@@ -12,15 +11,14 @@ match name:
     case "Kris":
         print("CSE")
     case _:
-        print("no")    
+        print("no")
 
 for _ in range(3):
     print("mce")
 while True:
-        try:
-
-            n=int(input("enter number "))
-            if n>0:
-                break    
-        except:
-            print("n is not a integer")     
+    try:
+        n = int(input("enter number "))
+        if n > 0:
+            break
+    except:
+        print("n is not a integer")
