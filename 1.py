@@ -1,3 +1,12 @@
+a=80000000
+print("hi %d" %a,a,end="\t")
+print(f"hi {a:,}")
+
+astring = "Hello world!"
+print('a','b','d',sep='dd')
+print(astring[-5:9])
+a={0:"sandeepa",'branch':"Is"}
+print(a[0])
 print("mce\n" * 3, end="")
 name = input("What is your name ").strip().title()
 
@@ -22,3 +31,8 @@ while True:
             break
     except:
         print("n is not a integer")
+
+
+
+a=8
+print({"hi"},a)
